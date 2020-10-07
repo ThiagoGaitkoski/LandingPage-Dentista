@@ -42,7 +42,7 @@ nav.mb-menu{
 
 nav.mb-menu ul{
     display: none;
-    z-index: 999;
+    /*z-index: 999;*/
     text-align: center;
     width: 100%;
     position: absolute;
@@ -52,7 +52,13 @@ nav.mb-menu ul{
 }
 
 nav.mb-menu ul li{
+    font-size: 13px;
     text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+nav.mb-menu ul li:hover{
+    background-color: lightgrey;
 }
 
 nav.mb-menu ul li{
