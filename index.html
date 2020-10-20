@@ -7,6 +7,7 @@
         <meta name="keywords" content="palavras,separadas,por,vírgulas">
         <meta name="auhor" content="Thiago Gaitkoski">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <title>Projeto 04</title>
     </head>
@@ -70,6 +71,7 @@
                         <div class="img-mosaico-single">Inserir imagem</div><!--img-mosaico-single-->
                         <div class="img-mosaico-single">Inserir imagem</div><!--img-mosaico-single-->
                     </div><!--mosaico-single-->
+
                 </div><!--mosaico-wraper-->
             </div><!--container-->  
         </section><!--mosaico-->
@@ -93,13 +95,13 @@
             </div><!--container-->
         </section><!--servicos-->
 
-        <section class="perfil-container">
+        <section id="quem" class="perfil-container">
             <div class="container">
                 <div class="perfil-wraper">
                     <div class="perfil-wraper2">
                     <div class="img-perfil">Inserir imagem</div><!--img-perfil-->
                     <div class="texto-perfil">
-                        <h2 id="quem">TÍTULO DO PROFISSIONAL</h2>
+                        <h2>TÍTULO DO PROFISSIONAL</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam, dolor earum, repellendus quidem voluptate totam perspiciatis, vero dignissimos saepe inventore distinctio. Quo a at quisquam fugiat exercitationem! Minima, consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur praesentium neque maxime facere alias consequuntur mollitia, quasi, dolorem quas ducimus quaerat! Cum aspernatur debitis incidunt placeat sunt! Quia, minima soluta?
                         <br><br>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam, dolor earum, repellendus quidem voluptate totam perspiciatis, vero dignissimos saepe inventore distinctio. Quo a at quisquam fugiat exercitationem! Minima, consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur praesentium neque maxime facere alias consequuntur mollitia, quasi, dolorem quasducimus quaerat! Cum aspernatur debitis incidunt placeat sunt! Quia, minimasoluta?
@@ -184,8 +186,6 @@
                             <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doençãs que podem ser controladas e evitadas com a ida regular ao dentista.</p>
                         </div><!--tratamento-single-->
                     </div><!--tratamento-container-->
-
-                <div class="clear"></div><!--clear-->
                 
             </div><!--container-->
         </section><!--tratamentos-->
@@ -193,6 +193,7 @@
         <section id="depo" class="depoimentos">
             <h2>Depoimentos</h2>
             <div class="container">
+
                 <div class="depoimento-single">
                     <quote>
                         "Estrutura e atendimento excepcional! adorei o atendimento da Dra. Fernanda, excelente profissional."
@@ -202,6 +203,27 @@
                         <span>Maria Augusta Santos</span>
                     </div><!--depoimento-nome-->
                 </div><!--depoimento-single-->
+
+                <div class="depoimento-single">
+                    <quote>
+                        "Estrutura e atendimento excepcional! adorei o atendimento da Dra. Fernanda, excelente profissional."
+                    </quote>
+                    <div class="depoimento-nome">
+                        <img src="imagem/depo-img.png">
+                        <span>Maria Augusta Santos</span>
+                    </div><!--depoimento-nome-->
+                </div><!--depoimento-single-->
+
+                <div class="depoimento-single">
+                    <quote>
+                        "Estrutura e atendimento excepcional! adorei o atendimento da Dra. Fernanda, excelente profissional."
+                    </quote>
+                    <div class="depoimento-nome">
+                        <img src="imagem/depo-img.png">
+                        <span>Maria Augusta Santos</span>
+                    </div><!--depoimento-nome-->
+                </div><!--depoimento-single-->
+
             </div><!--container-->
         </section><!--depoimentos-->
 
@@ -235,7 +257,7 @@
             <div class="clear"></div>
         </section><!--social-->
         
-        <section class="contato">
+        <section id="cont" class="contato">
             <h2>Contato</h2>
                 <form>
                     <div class="form-wraper w100">
@@ -267,7 +289,7 @@
 
         <footer>
 
-            <div class="container" id="cont">
+            <div class="container">
                 <div class="footer-block">
                     <h2>Telefone</h2>
                     <p>(48) 9999-9999<br>(48) 9999-9999</p>
@@ -287,9 +309,12 @@
 
         </footer>
 
+        <!--==============SCRIPTS==============-->
         <script src="/js/jquery.js"></script>
         <script src="/js/menu-mobile.js"></script>
         <script src="/js/menuScrool.js"></script>
+        <script src="/js/slide.js"></script>
+        <script src="/js/slick.js"></script>
 
     </body>
 </html>

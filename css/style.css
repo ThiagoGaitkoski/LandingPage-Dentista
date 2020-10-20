@@ -5,6 +5,41 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+    /** ESTILO PARA O PLUGIN SLICK **/
+
+    .slick-dotted ul{
+        list-style-type: none;
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .slick-dotted li{
+        display: inline-block;
+        margin: 0 7px;
+    }
+
+    .slick-dotted button:focus{
+        outline: 0;
+    }
+
+    .slick-dotted li button{
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+        color: #D8D8D8;
+        border-width: 0;
+        background: #D8D8D8;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    li.slick-active button{
+        background: #688293;
+        color: #698293;
+    }
+
+    /** FIM DO ESTILO PARA O PLUGIN **/
 .clear{
     clear: both;
 }
@@ -42,7 +77,7 @@ nav.mb-menu{
 
 nav.mb-menu ul{
     display: none;
-    /*z-index: 999;*/
+    z-index: 999;
     text-align: center;
     width: 100%;
     position: absolute;
@@ -195,7 +230,7 @@ section.perfil-container .texto-perfil h2{
 }
 
 section.perfil-container texto-perfil p{
-    color: #4b4b4b;
+    color: rgb(200, 200, 200);
     font-size: 15px;
     line-height: 25px;
     margin-top: 8px;
@@ -208,6 +243,7 @@ section.videos{
 section.videos .box-video{
     float: left;
     width: 33.3%;
+    margin-top: 30px;
     position: relative;
     background-color: green;
     padding-top: calc(33.3% * 0.6);
@@ -288,6 +324,7 @@ section.depoimentos .depoimento-single{
 .depoimento-nome img{
     width: 32px;
     height: 32px;
+    display: inline-block;
     border-radius: 16px;
 }
 
